@@ -3,7 +3,7 @@ Untuk Arsitecture Backend nya saya akan menggunakan Microservice untuk memecahka
 Dalam hal ini terdapat 2 arsitektur yang akan digunakan, yaitu:
 - API-Driven Architecture (Orchestration Pattern) -> RESTful
 - Event-Driven Architecture (Event-Carried State Transfer) -> Komunikasi Async
-Kemudian saya akan menerapkan penggunaan API Gateway, Service Mesh, Database yang sesuai tepat dan sesuai kebutuhan. Kemudian jika kebutuhan lebih besar saya akan memilih cloud dari pada on-premises.
+Kemudian saya akan menerapkan penggunaan API Gateway, Service Mesh, Database yang sesuai tepat dan sesuai kebutuhan. Kemudian jika kebutuhan lebih besar saya akan menempatkan server di Cloud dari pada On-Premises.
 Dengan menggunakan arsitektur diatas, seharusnya dapat menghindari terjadinya polling.
 
 
