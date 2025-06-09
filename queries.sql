@@ -65,8 +65,8 @@ INSERT INTO `books` (`id`, `title`, `author`) VALUES
 DROP TABLE IF EXISTS `loans`;
 CREATE TABLE IF NOT EXISTS `loans` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `user_id` int NOT NULL,
-  `book_id` int NOT NULL,
+  `user_id` int NOT NULL REFERENCES users(`id`),
+  `book_id` int NOT NULL REFERENCES books(`id`),
   `loan_date` date NOT NULL,
   `return_date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
